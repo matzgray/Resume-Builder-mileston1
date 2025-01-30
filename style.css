@@ -1,0 +1,173 @@
+body{
+
+    background-color: rgba(199, 191, 191, 0.737);
+}
+.main-container{
+  margin-left: 19%;
+    width: 70%;
+    background-color: white;
+ 
+    display: flex;
+}
+
+.sub-container1{
+    width: 30%;
+    background-color: rgba(4, 27, 19, 0.689);
+    padding: 5%;
+    color: white;
+    font-size: large;
+    font-style: italic;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+}
+
+.sub-container1 h2, h3, p{
+    padding-left: 10%;
+}
+
+.sub-container1 img{
+    width: 90%;
+    padding-left: 3%;
+    border-radius: 50%;
+}
+
+
+
+.sub-container1 li{
+    margin-bottom: 5%;
+    margin-left: -10%;
+    list-style-type: none;
+}
+.sub-container2{
+    width: 70%;
+    font-style: italic;
+   background-color: white;
+  
+    
+}
+
+.sub-container2-header{
+    height: 150px;
+    border-radius: 1%;
+    font-size:large;
+    
+    background-color: gray;
+    margin: 2%;
+    text-align: center;
+}
+.header-h2{
+  
+}
+
+.sub-container2-header h1{
+    padding-top: 8%;
+}
+.sub-container2-header h1,h3{
+    padding-left: 5%;
+    
+    
+}
+
+.sub-container2-hero{
+    padding: 5%;
+}
+
+#education{
+    display: none;
+    list-style-type: square;
+  }
+  #skills{
+      display: none;
+      list-style-type: square;
+  }
+  
+  #work-experience{
+      display: none;
+      list-style-type: square;
+  }
+
+  .btn-div{
+    margin-top: -10px;
+    
+   
+   
+  }
+  
+  .btn-class{
+      margin-left: 2%;
+      margin-top: -25px;
+      width: 50%;
+      height: 38px;
+      border-radius: 8px;
+      background-color: rgba(4, 27, 19, 0.689);
+    border: 2px solid  #9cb8a9;
+      
+      color:white;
+  
+  }
+
+  .fa-envelope {
+
+  }
+
+  .bg{
+    background-color: gray;
+    height: 40px;
+    border-radius: 8px;
+   padding-top: 15px;
+   padding-left: 15px;
+   
+  }
+
+  /* Media queries*/
+
+/* small screens (less than 768px) */
+@media (max-width: 768px) {
+    .main-container {
+      flex-direction: column;
+      padding-right: 0%;
+      margin: 0%;
+      width: 100%;
+      
+    }
+    .sub-container1 {
+      width: 90%;
+    }
+    .sub-container2 {
+      width: 100%;
+      
+    }
+  }
+
+    /* medium screens (between 768px and 1024px) */
+    @media (min-width: 769px) and (max-width: 1024px) {
+        .main-container {
+          flex-direction: row;
+          margin: 0%;
+          width: 100%;
+        }
+        .sub-container1 {
+          width: 50%;
+        }
+        .sub-container2{
+          width: 50%;
+        }
+        
+      }
+/* 
+       /*large screens (greater than 1024px) */
+  @media (min-width: 1025px) {
+    body{width: 88%;}
+    .main {
+      flex-direction: row;
+    }
+    .sub-container1 {
+      width: 32%;
+    }
+    .sub-container2{
+      width: 56%;
+    }
+  } 
+
+
+
